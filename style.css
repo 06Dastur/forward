@@ -15,13 +15,8 @@
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-    background-color: #FFFF00;
-    border: 2px solid #53F70C;
-    width: 22%;
-    height: 75px;
-    margin-right: 4px;
-    margin-left: 7px;
-    border-radius: 50%;
+    width: 25%;
+    margin-top: 0px;
   }
   
   /* Change background color of buttons on hover */
@@ -50,35 +45,40 @@
     width: 100px;
     height: 300px;
 }
+.ford{
+  width: 100%;
+  height: 80px;
+}
 /* media screen */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
   .ford{
-        width: 100%;
-        height: 33px;
-    }
-    .ford h2{
-        font: 18px bold Arial;
-        color: red;
-    }
-    .slayd{
-        width: 100%;
-        height: 200px;
-        /* background-color: aqua; */
-    }
-    .container{
-        width: 100%;
-        height: 100%;
-    }
-    .tap a {
-      
-    }
-
+    height: 50px;
+  }
+  .ford img{
+    width: 100%;
+    height: 50px;
+  }
+  .tab{
+    width: 99.5%;
+    height: 65px;
+    margin-top: 2px;
+  }
+  .tab button{
+    width: 20%;
+    height: 65px;
+    margin-left: 4%;
+    border-radius: 50%;
+    border: 2px solid #F7FE00;
+    background-color: yellowgreen;
+  }
+  .slayd{
+    width: 100%;
+    height: 200px;
+  }
+  .container{
+    width: 100%;
+    height: 20%;
+  }
 }
-
-
-.tabcontent a{
-  float: left;
-}
-
 
 
